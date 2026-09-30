@@ -15,3 +15,7 @@ function testBody(event) {
     console.log("listen to body!", event);
 }
 document.body.addEventListener("click", testBody);
+
+const cssSelector = 'meta';
+const meta = document.querySelector(cssSelector)
+console.log(meta);
