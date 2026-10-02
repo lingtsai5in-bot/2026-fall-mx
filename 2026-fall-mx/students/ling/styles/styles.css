@@ -4,7 +4,7 @@ body {
 }
 
 footer {
-    background-color: light-dark(rgb(108, 206, 248), rgb(71, 89, 110));
+    background-color: light-dark(rgb(144, 194, 215), rgb(71, 89, 110));
     color: light-dark(rgb(16, 16, 16), rgb(234, 236, 239));
 }
 
@@ -12,4 +12,26 @@ footer {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#color-chooser {
+    border: 3px solid rgb(251, 250, 250);
+
+
+    input {
+        display: none;
+
+    }
+}
+
+h1 {
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+fieldset {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
