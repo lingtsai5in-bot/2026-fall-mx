@@ -24,8 +24,20 @@ footer {
     }
 }
 
+[type="text"] {
+    border: 6px double rgb(107, 162, 185);
+}
+
+
+
 h1 {
     font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Cabin Sketch", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
